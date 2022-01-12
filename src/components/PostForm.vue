@@ -2,6 +2,7 @@
 	<form>
 		<h4>Создание поста</h4>
 		<my-input
+      v-focus
 			type="text"
 			placeholder="Название"
       v-model="post.title"
